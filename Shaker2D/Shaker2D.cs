@@ -39,7 +39,7 @@ public class Shaker2D : MonoBehaviour
     [SerializeField] Transform _shakePivot = null;
 
     public Type possibleShake = allType;
-    public Type defaultShake = allType; // + ou = restrictif a possibleShake
+    public Type defaultShake = allType;
 
     public float maxShakeTranslateX = defaultMaxShakeTranslateX;
     public float maxShakeTranslateY = defaultMaxShakeTranslateY;
